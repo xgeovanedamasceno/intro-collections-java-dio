@@ -13,4 +13,8 @@ public class TaskList {
     public void removeTask (String taskName) {
         this.tasksList.remove(taskName);
     }
+
+    public int getNumberOfTask () {
+        return this.tasksList.size();
+    }
 }
