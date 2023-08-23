@@ -10,5 +10,7 @@ public class TaskList {
         this.tasksList.add(taskName);
     }
 
-
+    public void removeTask (String taskName) {
+        this.tasksList.remove(taskName);
+    }
 }
