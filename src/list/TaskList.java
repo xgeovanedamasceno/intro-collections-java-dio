@@ -17,4 +17,10 @@ public class TaskList {
     public int getNumberOfTask () {
         return this.tasksList.size();
     }
+
+    public void getTaskDescriptions () {
+        this.tasksList.forEach(element -> System.out.println(element));
+    }
+
+
 }
